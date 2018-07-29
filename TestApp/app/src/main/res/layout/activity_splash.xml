@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="penpencil.com.testapp.SplashActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_marginTop="180dp"
+            android:id="@+id/image"
+           android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/llllll"/>
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/image"
+            android:id="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/satyamev"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#454B57"
+            android:textAlignment="center"
+            android:text="MINISTRY OF HEALTH \nAND FAMILY WELFARE GOVERMENT OF INDIA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center"
+            android:background="#FE7A10"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <TextView
+
+
+                android:layout_gravity="center"
+
+                style="@style/largeTextView"
+                android:textSize="24sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:text="REVISED NATIONAL TUBERCULOSIS CONTROL PROGRAM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
+
